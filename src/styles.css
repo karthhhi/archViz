@@ -1,0 +1,136 @@
+.App {
+  font-family: sans-serif;
+}
+
+h2 {
+  text-align: center;
+}
+
+.add-con-button {
+  margin-top: 30px;
+  width: 100%;
+}
+
+.bottom-section {
+  margin-top: 50px;
+  text-align: right;
+}
+
+/* Bootstarp style overrides */
+
+.btn:focus,.btn:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.service-table {
+  width: 100%;
+}
+
+.service-table tbody {
+  height: 200px;
+  overflow-y: auto;
+  width: 100%;
+}
+.service-table thead,
+.service-table tbody,
+.service-table tr,
+.service-table td,
+.service-table th {
+  display: block;
+}
+
+.service-table thead{
+  background-color: rgb(52, 58, 64);
+  color: rgb(255, 255, 255);
+}
+
+.service-table .close-btn {
+  color: rgb(220, 53, 69);
+  font-size: 22px;
+}
+
+.service-table .close-btn:hover {
+  color: rgb(220, 53, 69);
+  background: none;
+}
+
+.service-table .close-btn.btn-primary:not(:disabled):not(.disabled):active {
+  color: rgb(220, 53, 69);
+  background: none;
+}
+
+.navbar-nav .active{
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.modal.right .modal-dialog {
+  position: fixed;
+  margin: auto;
+  width: 320px;
+  height: 100%;
+  right: 0;
+  -webkit-transform: translate3d(0%, 0, 0);
+      -ms-transform: translate3d(0%, 0, 0);
+       -o-transform: translate3d(0%, 0, 0);
+          transform: translate3d(0%, 0, 0);
+}
+
+.modal.right .modal-content {
+  height: 100%;
+  overflow-y: auto;
+}
+
+.modal.right .modal-body {
+  padding: 15px 15px 80px;
+}
+      
+/*Right*/
+.modal.right.fade .modal-dialog {
+  right: -320px;
+  -webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+     -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+       -o-transition: opacity 0.3s linear, right 0.3s ease-out;
+          transition: opacity 0.3s linear, right 0.3s ease-out;
+}
+
+.modal.right.fade.show .modal-dialog {
+  right: 0;
+}
+
+
+/** ----- MODAL STYLE ----- */
+.graph .modal-content {
+  border-radius: 0;
+  border: none;
+}
+
+.graph .modal-header {
+  background-color: rgb(52, 58, 64);
+  color: rgb(255, 255, 255);
+  border-radius: 0;
+  border: 1px solid rgb(52, 58, 64);
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+}
+
+.graph .modal-header .close {
+  color: rgb(255, 255, 255);
+}
+
+.graph .modal-body{
+  background-color: #eafeea;
+}
+
+.confirm-box .modal-header {
+  background-color: rgb(52, 58, 64);
+  color: rgb(255, 255, 255);
+  border-radius: 0;
+  border: 1px solid rgb(52, 58, 64);
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+}
+
+.confirm-box .modal-header .close {
+  color: rgb(255, 255, 255);
+}
